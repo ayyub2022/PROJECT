@@ -7,7 +7,7 @@
 ## Description
 This is my project that I have been working on.
 ## Installation
-You use git clone to be able to download the documents in the GitHub
+You use git clone to be able to download the documents in the Github
 
 ## Installation Requirements
 Git
