@@ -28,7 +28,7 @@ async function getRandomVerse() {
         
         // Check if the response is successful
         if (data.code === 200 && data.status === 'OK') {
-            // Display the text of the Ayah in the HTML element
+            // Display the text of the ayah in the HTML element
             quote.innerHTML = data.data.text;
         } else {
             // Display an error message if fetching the Ayah fails
