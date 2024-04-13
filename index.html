@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding and viewport for responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Title of the webpage -->
+    <title>Islamic Reminder App</title>
+    
+    <!-- External stylesheet for styling -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <!-- Main section containing the card -->
+    <section class="main-card">
+      <!-- Card container -->
+      <div class="card">
+        <!-- Title of the card -->
+        <h1>Quran Verses</h1>
+        
+        <!-- Placeholder for the Quran verse to be displayed -->
+        <blockquote id="verseDisplay">Loading...</blockquote>
+        
+        <!-- Button to fetch a new random Quran verse -->
+        <div>
+          <button class="card-btn" onclick="getRandomVerse();">New Verse</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script to include JavaScript functionality -->
+    <script src="index.js"></script>
+  </body>
+</html>
