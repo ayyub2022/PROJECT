@@ -28,7 +28,7 @@ body {
 }
 
 .card h1 {
-    font-size: 32px; /* Changed from 'font' to 'font-size' */
+    font-size: 32px; /* Changed From 'font' to 'font-size' */
     margin-bottom: 40px;
     position: relative;
 }
